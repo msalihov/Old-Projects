@@ -1,0 +1,3 @@
+import MsaliBot
+
+MsaliBot.MsaliBot()

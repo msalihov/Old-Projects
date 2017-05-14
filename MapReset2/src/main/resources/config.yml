@@ -1,0 +1,16 @@
+############################################################################
+######################## THIS IS THE DEFAULT CONFIG ########################
+############################################################################
+plugin:
+    attribution: true #whether to send a message regarding the plugin's author on startup
+    motd:
+        enabled: false #true or false. Enables or disables the plugin modifying the MOTD per the format below
+        format: '`4 > %worldname <' #The format of the motd. The %worldname variable is where the world's name will be inserted
+    world:
+        mode: copy #copy or generate. Sets whether the plugin copies over another world or creates a new one on command.
+world:
+    folder: 'tempworld-%num' #formatting for the folder names of the world to be copied or generated
+    name: 'MapReset World' #display name for the world. Used in MOTD if enabled.
+    generation:
+        environment: 'normal' #normal, nether, or the end
+        type: 'normal' #normal, flat, or large biomes
